@@ -14,6 +14,7 @@ August, 2017
 Additional examples on GitHub: 
 
 https://github.com/AboutObjects/swift-examples
+
 https://github.com/AboutObjectsTraining/Swift4Examples
 
 ### Part 2: iOS Development in Swift (5 Days)
