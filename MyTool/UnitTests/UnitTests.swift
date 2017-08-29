@@ -49,10 +49,19 @@ class UnitTests: XCTestCase {
     }
     
     func testWorkWithStructs() {
+        
         let myPet = Pet(identifier: 101, name: "Fluffy")
         print(myPet)
+        
+        let pet2 = Pet(identifier: 102)
+        print(pet2)
+        
+        let pet3 = Pet(name: "Fifi")
+        print(pet3)
+        
+        let pet4 = Pet()
+        print(pet4)
     }
-    
 }
 
 

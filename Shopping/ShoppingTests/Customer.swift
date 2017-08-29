@@ -30,7 +30,6 @@ class Customer: CustomStringConvertible
 {
     var name: String?
     var address: Address?
-//    lazy var cart: Cart? = Cart()
     
     init() { }
     init(name: String?, address: Address?) {
