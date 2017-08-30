@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AB8B05F31F55CD28007C64E0 /* CoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8B05F21F55CD28007C64E0 /* CoolViewController.swift */; };
 		AB8B05F51F55F49D007C64E0 /* CoolViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8B05F41F55F49D007C64E0 /* CoolViewCell.swift */; };
+		AB8B05F71F5747EA007C64E0 /* CoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8B05F61F5747EA007C64E0 /* CoolView.swift */; };
 		ABACEA691F54CE0100B437EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABACEA681F54CE0100B437EE /* AppDelegate.swift */; };
 		ABACEA701F54CE0100B437EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABACEA6F1F54CE0100B437EE /* Assets.xcassets */; };
 		ABACEA731F54CE0100B437EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABACEA711F54CE0100B437EE /* LaunchScreen.storyboard */; };
@@ -17,6 +18,7 @@
 /* Begin PBXFileReference section */
 		AB8B05F21F55CD28007C64E0 /* CoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolViewController.swift; sourceTree = "<group>"; };
 		AB8B05F41F55F49D007C64E0 /* CoolViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolViewCell.swift; sourceTree = "<group>"; };
+		AB8B05F61F5747EA007C64E0 /* CoolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoolView.swift; sourceTree = "<group>"; };
 		ABACEA651F54CE0100B437EE /* Coolness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coolness.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABACEA681F54CE0100B437EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABACEA6F1F54CE0100B437EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				ABACEA681F54CE0100B437EE /* AppDelegate.swift */,
 				AB8B05F21F55CD28007C64E0 /* CoolViewController.swift */,
+				AB8B05F61F5747EA007C64E0 /* CoolView.swift */,
 				AB8B05F41F55F49D007C64E0 /* CoolViewCell.swift */,
 				ABACEA6F1F54CE0100B437EE /* Assets.xcassets */,
 				ABACEA711F54CE0100B437EE /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABACEA691F54CE0100B437EE /* AppDelegate.swift in Sources */,
+				AB8B05F71F5747EA007C64E0 /* CoolView.swift in Sources */,
 				AB8B05F31F55CD28007C64E0 /* CoolViewController.swift in Sources */,
 				AB8B05F51F55F49D007C64E0 /* CoolViewCell.swift in Sources */,
 			);
