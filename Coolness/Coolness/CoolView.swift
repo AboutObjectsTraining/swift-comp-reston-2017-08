@@ -10,6 +10,16 @@ import UIKit
 
 class CoolView: UIView
 {
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        clipsToBounds = true
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        clipsToBounds = true
+    }
+    
     func add(cell: CoolViewCell) {
         addSubview(cell)
     }
